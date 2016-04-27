@@ -1,0 +1,40 @@
+* {
+    /*border: 1px solid red;*/
+}
+
+body,html {
+    height: 100%;
+}
+
+.stepper_button {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    width: 60px;
+    text-align: center;
+    border: 1px solid #D7DBDD;
+    padding: 0 10px;
+    border-radius: 0;
+}
+
+button {
+    cursor: pointer;
+    padding: 1px 15px;
+    color: #FFFFFF;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.Left {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.Right {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
